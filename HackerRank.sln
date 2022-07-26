@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradingStudents", "3MonthsP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlippingBits", "3MonthsPreperationKit\Easy\FlippingBits\FlippingBits.csproj", "{2CE8321F-010F-43D6-9863-25A8F50D0023}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediumm", "Mediumm", "{A8F55500-5641-4D6A-8B04-873DED3CB42D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "3MonthsPreperationKit\Medium\ConsoleApp1\ConsoleApp1.csproj", "{C4CD7F02-85C3-46C2-8781-FA00C8CC4DB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +71,10 @@ Global
 		{2CE8321F-010F-43D6-9863-25A8F50D0023}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CE8321F-010F-43D6-9863-25A8F50D0023}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CE8321F-010F-43D6-9863-25A8F50D0023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CD7F02-85C3-46C2-8781-FA00C8CC4DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CD7F02-85C3-46C2-8781-FA00C8CC4DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CD7F02-85C3-46C2-8781-FA00C8CC4DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CD7F02-85C3-46C2-8781-FA00C8CC4DB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +90,8 @@ Global
 		{12F4DF80-FC7D-455F-AE8A-81A27FBC0955} = {D4F6466F-9E17-423C-ADAD-35E1D762AC4D}
 		{42763B2C-A7F0-42B5-8FC0-50210B2EDE9E} = {D4F6466F-9E17-423C-ADAD-35E1D762AC4D}
 		{2CE8321F-010F-43D6-9863-25A8F50D0023} = {D4F6466F-9E17-423C-ADAD-35E1D762AC4D}
+		{A8F55500-5641-4D6A-8B04-873DED3CB42D} = {ECD83C00-B4D5-40C4-BE3D-54AC106D376B}
+		{C4CD7F02-85C3-46C2-8781-FA00C8CC4DB7} = {A8F55500-5641-4D6A-8B04-873DED3CB42D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C82D783-F786-4F47-8225-2B8632B1579E}

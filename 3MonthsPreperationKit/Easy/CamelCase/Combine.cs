@@ -7,11 +7,12 @@ namespace CamelCase
     {
         internal static List<string> CombineClass(string str)
         {
-            return GetStringsAsList(str);
+            str = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(str);
+            return str.Split(' ').ToList();
         }
         internal static List<string> CombineVariable(string str)
         {
-            var list = GetStringsAsList(str);
+            var list = CombineClass(str);
             list[0] = list[0].ToLower();
             return list;
         }
@@ -20,13 +21,7 @@ namespace CamelCase
             var list = CombineVariable(str);
             list[^1] += "()";
             return list;
-        }
-        private static List<string> GetStringsAsList(string str)
-        {
-            str = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(str);
-            List<string> list = str.Split(' ').ToList();
-            return list;
-        }
+        } 
     }
 
 }

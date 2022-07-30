@@ -1,5 +1,4 @@
-﻿
-namespace CountingSort1
+﻿namespace CountingSort1
 {
     internal class Program
     { 
@@ -22,18 +21,5 @@ namespace CountingSort1
             
             Console.ReadKey();
         }
-    }
-    class Result
-    { 
-        public static List<int> CountingSort(List<int> arr)
-        {
-            int[] range = new int[100];
-
-            foreach (int value in arr)
-                range[value]++;
-
-            return range.ToList();
-        } 
-    }
-
+    } 
 }

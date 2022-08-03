@@ -1,0 +1,5 @@
+* First look at the image ith the same name of this txt file : AnswerLogic 
+
+* In the picture you can see that each 4 places in the matrix are defined with the same letter.
+  The numbers in the position of the same letters will not be in the n x n matrix at the same time. 
+  So we can take just one number from each of the same letter positions.	
